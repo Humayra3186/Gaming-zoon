@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 1.25vw;
+  }
+
+  /*sharing parts*/
+
+  .position{
+    width: 77%;
+    margin: 0 auto;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+          /*header*/
+   
+  
+  /*navbar style starts from here*/
+
+  nav{
+    width: 100%;
+    height: 5.4rem;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+  }
+  .navbar{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-left{
+    width: 20%;
+    align-items: center;
+  }
+  .nav-img{
+
+    width: 3.4rem;
+
+  }
+  .nav-img img{
+
+    width: 100%;
+  }
+  .nav-left h3{
+    font-size: 1.88rem;
+    font-weight: 700;
+    align-items: center;
+    padding-left: 0.5rem;
+  }
+  
+  .game{
+    color: rgba(255, 66, 165, 1);
+  }
+
+  .nav-right{
+    width: 37%;
+    justify-content: space-between;
+
+  }
+  .nav-btn{
+    background: transparent;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgba(60, 53, 79, 1);
+    
+   
+  }
+  .tube{
+    color: red;
+  }
+  .tube,.tiktok{
+    padding-left: 0.8rem;
+    font-size: 1.2rem;
+  }
+  .tiktok{
+    font-size: 1rem;
+
+  }
+  .follow{
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.4rem;
+    align-items: center;
+  }
+
+  /*navbar style ends*/
+
+  /*banner section styles here*/
+  .banner{
+    width: 88.5%;
+    justify-content: space-between;
+   
+   
+    
+  }
+  .banner-content{
+    width: 52%;
+    background-image: url(./resources/Group\ 14.png);
+    background-position: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .banner-details{
+    margin-right: 3rem;
+    position: relative;
+  }
+  .banner-details h3{
+    font-size: 2.01rem;
+    font-weight: 600;
+    color: black;
+  }
+  .banner-details h2{
+    font-size: 3.97rem;
+    font-weight: 800;
+    background: linear-gradient(rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
+    margin-bottom: 0.8rem;
+    margin-top: 0.4rem;
+  }
+  #goat{
+    text-shadow: none;
+    position: absolute;
+    top: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .banner-details  p{
+    font-size: 0.84rem;
+    font-weight: 500;
+    color: rgba(83, 76, 100, 0.973);
+    margin-bottom: 0.5rem
+   
+  }
+  .play,.down{
+    padding-right: 0.8rem;
+    color:rgba(249, 72, 178, 1) ;
+  }
+  .Group{
+    padding-right: 0.37rem;
+    color:rgba(249, 72, 178, 1) ;
+
+  }
+  .btn{
+    font-size: 0.84rem;
+    padding: 0.88rem 1.68rem;
+    border: none;
+    color: white;
+    border-radius: 48px;
+    margin-top: 1.1rem;
+  }
+  .banner-btn-one{
+    background-color: rgba(255, 66, 165, 1);
+  }
+  .banner-btn-two{
+    background-color: rgba(78, 197, 247, 1);
+  }
+
+
+  .banner-img{
+    width: 43%;
+
+  }
+  .banner-img img{
+    width: 100%;
+    
+  }
+  /*banner section style ends*/
+
+  /*   gamer-section starts*/
+  .gamer{
+    background-color: rgba(255, 66, 165, 0.03);
+    margin-bottom: 3rem;
+  }
+  .gamer-section{
+    justify-content: space-between;
+  }
+  .gamer-img{
+    width: 60%;
+  }
+  .gamer-img img{
+    width: 100%;
+    
+  }
+  
+  
+  .gamer-content{
+    width: 37%;
+    text-align: right;
+    align-items: center;
+    margin: 3rem 0 ;
+  }
+  .gamer-content h3{
+    font-size: 2.01rem;
+    font-weight: 700;
+    background: linear-gradient(rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+    background-clip: text;
+    color: transparent;
+
+  }
+  .gamer-description{
+    font-size: 0.75rem;
+    color: rgba(83, 76, 100, 1);
+    line-height: 1.26rem;
+    margin: 1rem 0 0.8rem;
+
+  }
+  .purpose{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(83, 76, 100, 1);
+    margin-bottom: 0.5rem;
+  }
+  .gamer-content h4{
+    font-size: 1.34rem;
+    font-weight: 700;
+    color: rgba(83, 76, 100, 1);
+  }
+  .gamer-btn{
+    background-color: rgba(249, 72, 178, 1);
+    margin-bottom: 1rem;
+  }
+
+  /*gamer-section ends*/

@@ -1,0 +1,78 @@
+/*small device*/
+
+@media screen and (max-width:993px){
+
+   html{
+        font-size:2vw ;
+    }
+    nav{
+        height: auto;
+        box-shadow: none;
+    }
+    .nav-left{
+        width: 100%;
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+    .navbar,.nav-right{
+        flex-direction: column;
+    }
+    .nav-right{
+        width: auto;
+    }
+    .nav-btn{
+        margin-top: 2.5rem;  
+    }
+
+    /*banner section*/
+    .banner{
+        flex-direction:column-reverse;
+        width: 100%;
+        
+
+    }
+    .banner-content{
+        width: 80%;
+        margin: 1rem 2rem 1rem auto;
+
+        
+        
+    }
+    .banner-details {
+        margin-right: 1.1rem;
+        padding: 4rem 0;
+    }
+    
+      #goat{
+        top: 6.3rem;
+        
+      }
+    .banner-img{
+        width: 67%;
+        margin: 3rem auto 0; 
+    }
+
+    /*gamer-section responsive style */
+    .gamer{
+      background-color: transparent;
+    }
+    .gamer-section{
+        flex-direction: column;
+    }
+    .gamer-img{
+        width: 100%;
+      }
+      .gamer-content{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .game-detail{
+        width: 62%;
+      }
+    /*gamer section style ends*/
+
+    
+}
