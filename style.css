@@ -186,7 +186,7 @@
   /*   gamer-section starts*/
   .gamer{
     background-color: rgba(255, 66, 165, 0.03);
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
   .gamer-section{
     justify-content: space-between;
@@ -206,7 +206,7 @@
     align-items: center;
     margin: 3rem 0 ;
   }
-  .gamer-content h3{
+  .gamer-content h3,.tittle{
     font-size: 2.01rem;
     font-weight: 700;
     background: linear-gradient(rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
@@ -214,7 +214,7 @@
     color: transparent;
 
   }
-  .gamer-description{
+  .gamer-description ,.description{
     font-size: 0.75rem;
     color: rgba(83, 76, 100, 1);
     line-height: 1.26rem;
@@ -238,3 +238,60 @@
   }
 
   /*gamer-section ends*/
+
+  /*online game section styles starts*/
+  .game-heading{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .online-game{
+    color: black;
+  }
+  .game-img{
+    width: 100%;
+   
+  }
+  .game-img:hover+.hover{
+    display: block;
+  }
+  .game-img:hover{
+   filter: brightness(40%);
+  }
+  
+  
+  .game-img img{
+    width: 100%;
+  }
+
+  .game-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+    margin-top: 2rem;
+   
+  }
+  .card{
+
+    position: relative;
+  }
+  .hover{
+    text-align: center;
+    position: absolute;
+    top: 8rem;
+    left: 4.5rem;
+    display: none;
+  }
+  .watch{
+    color: aliceblue;
+    font-size: 2rem;
+   
+  }
+  .hover-watch{
+    color: rgba(249, 72, 178, 1);
+    font-size: 0.89rem;
+    font-weight: 500;
+  }
+
+  /*online game section styles ends*/

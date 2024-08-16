@@ -3,7 +3,7 @@
 @media screen and (max-width:993px){
 
    html{
-        font-size:2vw ;
+        font-size:2.35vw ;
     }
     nav{
         height: auto;
@@ -32,14 +32,14 @@
 
     }
     .banner-content{
-        width: 80%;
+        width: 83%;
         margin: 1rem 2rem 1rem auto;
 
         
         
     }
     .banner-details {
-        margin-right: 1.1rem;
+        margin-right: 2rem;
         padding: 4rem 0;
     }
     
@@ -55,7 +55,9 @@
     /*gamer-section responsive style */
     .gamer{
       background-color: transparent;
+      margin-bottom: 2rem;
     }
+    
     .gamer-section{
         flex-direction: column;
     }
@@ -71,8 +73,39 @@
       }
       .game-detail{
         width: 62%;
+      }.gamer-btn{
+        margin-bottom: 3rem;
+       
+      }
+      .gamer-content h4{
+        font-size: 1.23rem;
+      
       }
     /*gamer section style ends*/
+
+    /* online game section*/
+    .game-heading{
+      width: 100%;
+      
+      
+    }
+    .game-card{
+      width: 73%;
+      margin: 0 auto;
+      grid-template-columns: repeat(1,1fr);
+      gap: 1%;
+      text-align: center;
+    }
+    .hover{
+      text-align: center;
+      position: absolute;
+      top: 13rem;
+      left: 9.5rem;
+      display: none;
+    }
+  
+     /* online game section ends*/
+
 
     
 }
